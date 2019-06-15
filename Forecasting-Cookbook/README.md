@@ -1,25 +1,19 @@
 SAS Viya Forecasting Cookbook
 =============================
 
-In this cookbook, we are illustrating the new SAS Viya Forecasting procedures and object packages using the examples in the online book **Hyndman, R. J., & Athanasopoulos, G. (2018). *Forecasting: principles and practice*. OTexts**, that can be found at this [link](https://www.otexts.org/book/fpp).
+In this cookbook, we are illustrating the new SAS Viya Forecasting procedures and object packages using the examples in the online book **Hyndman, R.J., & Athanasopoulos, G. (2018) *Forecasting: principles and practice*, 2nd edition, OTexts: Melbourne, Australia. OTexts.com/fpp2. Accessed on June 7, 2019.**, that can be found at this [link](https://otexts.com/fpp2/).
 
 The cookbook outline is as follows:
 
-## Chapter 1-3: Getting started, The forecaster's toolbox, and Judgemental forecasts
+## Chapter 1-4: Getting started, Time series gaphics, The forecaster's toolbox, and Judgemental forecasts
 No code or examples in the book.
 
-## Chapter 4: Simple linear regression
+## Chapter 5: Time series regression models
 We use a combination of DATA step and PROC REGSELECT to illustrate:
 1. Forecasting using PROC REGSELECT
 2. Check residual autocorrelation using TSA AUTOCORRELATION function
 3. Test the residual autocorrelation using TSA WHITENOISE function. Please note that the book uses the Durbin-Watson test instead.
-
-## Chapter 5: Multiple linear regression
-We use a combination of DATA step and PROC REGSELECT to illustrate:
-1. Forecasting using PROC REGSELECT
-2. Check residual autocorrelation using TSA AUTOCORRELATION function
-3. Test the residual autocorrelation using TSA WHITENOISE function. Please note that the book uses the Durbin-Watson test instead.
-4. Use variable selection features to select proper predictors
+4. Use variable selection features to select proper predictors.
 
 ## Chapter 6: Time series decomposition
 We use a combination of DATA step and PROC TSMODEL with TSA, TSM, and ATSM packages to illustrate:
@@ -42,11 +36,11 @@ We use a combination of DATA step and PROC TSMODEL with TSA, TSM, and ATSM packa
 3. Identify and forecasting the identified ARIMA model in a single step 
 4. Forecasting using the ATSM package to automatically identify the tentative ARIMA model in a single step
 
-## Chapter 9: Advanced forecasting methods
-We use a combination of DATA step and PROC TSMODEL with TSA, TSM, and ATSM packages, PROC NNET, and PROC TSRECONCILE to illustrate:
-1. Identify time series property such as stationarity and tentative autoregressive (p) and moving-average (q) orders and cross correlation (the transfer function) using the TSA STATIONARITYTEST and ARMAORDERS functions as described in the book
-2. Forecasting the identified ARIMAX model using the TSM and ATSM package 
-3. Identify and forecasting the identified ARIMAX model in a single step
-4. Forecasting using the ATSM package to automatically identify the tentative ARIMAX model in a single step
-5. Forecasting using the neural net model using PROC CAS along with the neuralNet CAS actionset
-6. Hierarchical forecasting using PROC TSMODEL and PROC TSRECONCILE
+## Chapter 9: Dynamic regression models
+
+## Chapter 10: Forecasting hierarchical or grouped time series
+1. Hierarchical forecasting using PROC TSMODEL and PROC TSRECONCILE
+
+## Chapter 11: Advanced forecasting methods
+We use a combination of DATA step and PROC TSMODEL and PROC NNET to illustrate:
+1. Train the neural net model using PROC NNET and generate forecasts by the scorecode file
