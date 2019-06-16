@@ -30,7 +30,7 @@ We use a combination of DATA step and PROC TSMODEL with TSM, and ATSM packages t
 5. Forecasting each individual ESM model type and select among all the model types and the combined model in a single step (one data pass) and output the combined forecast
 
 ## Chapter 8: ARIMA models
-We use a combination of DATA step and PROC TSMODEL with TSA, TSM, and ATSM packages and PROC CARIMA to illustrate:
+We use a combination of DATA step and PROC TSMODEL with TSA, TSM, and ATSM packages to illustrate:
 1. Identify time series property such as stationarity (augmented Dickey-Fuller unit root test) and tentative autoregressive (p) and moving-average (q) orders using the TSA STATIONARITYTEST and ARMAORDERS functions as described in the book 
 2. Forecasting the identified ARIMA model using the TSM and ATSM package 
 3. Identify and forecasting the identified ARIMA model in a single step 
