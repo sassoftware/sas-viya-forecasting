@@ -21,7 +21,8 @@ run;
 proc regselect data=mycas.fpp2_uschange;
 	model consumption = income;
     *output upper (UCL) and lower (LCL) bound limit for fitted values;
-	output out=mycas.fpp2_uschange_pred ucl lcl;
+	output out=mycas.fpp2_uschange_pred predicted ucl lcl
+	copyvars = (consumption income);
 run;
 
 /**** Multiple linear regression ****/
@@ -324,7 +325,7 @@ run;
 data mycas.newdata;
 	input year quarter Consumption Income;
 	date = yyq(year,quarter);
-	format date YYQC6.;
+	format date YYQ6.;
 	keep date Consumption Income;
 	datalines;
 	2016 4 . 0.72
