@@ -5,9 +5,6 @@ In this cookbook, we are illustrating the new SAS Viya Forecasting procedures an
 
 The cookbook outline is as follows:
 
-## Chapter 1-4: Getting started, Time series gaphics, The forecaster's toolbox, and Judgemental forecasts
-No code or examples in the book.
-
 ## Chapter 5: Time series regression models
 We use a combination of DATA step and PROC REGSELECT to illustrate:
 1. Forecasting using PROC REGSELECT
