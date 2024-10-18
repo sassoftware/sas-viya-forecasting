@@ -23,4 +23,4 @@ We welcome contributions from the community! If you'd like to share your event t
 
 ## Contact
 
-For general inquiries about this repository, please reach out to Ran Bi[ran.bi@sas.com] for clarification.
+For general inquiries about this repository, please reach out to Ran Bi[Ran.Bi@sas.com] for clarification.
