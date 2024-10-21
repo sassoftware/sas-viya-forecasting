@@ -16,6 +16,14 @@ Optional
 Provide users with initial steps for getting started using your project after they have installed it.
 This is a good place to include screenshots, animated GIFs, or short example videos.
 -->
+The SAS Viya Forecasting repository contains several key folders:
+
+1. **data**: Contains example datasets used in forecasting demonstrations.
+2. **EventTables**: Contains event tables, such as country-specific holidays and other important dates.
+3. **Forecasting-Cookbook**: Includes new SAS Viya Forecasting procedures and object packages using the examples in the online book.
+4. **RnnAutoTuneBlogExamples**: Contains code examples that can be run within the SAS Viya environment for RNN Autotune mentioned in the SAS blog.
+
+These folders support users in exploring forecasting techniques using the SAS Viya platform. More details are available on the [GitHub page](https://github.com/sassoftware/sas-viya-forecasting).
 
 ## License
 This project is licensed under the [Apache 2.0 License](LICENSE).
